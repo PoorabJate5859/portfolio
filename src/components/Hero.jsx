@@ -112,7 +112,7 @@ export default function Hero() {
                 </motion.a> */}
                 <motion.a
                   variants={subItem}
-                  href="/Poorab_Jate_CV.pdf"
+                  href="/Jate_Poorab_CV.pdf"
                   download
                   className="group relative inline-flex items-center rounded-full border border-white/10 bg-white/5 px-6 py-3 font-medium text-white shadow-neon transition hover:shadow-[0_0_30px_rgba(162,89,255,0.35)]"
                   title="Download CV"
