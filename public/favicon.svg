@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="32" cy="32" r="30" />
+    </clipPath>
+  </defs>
+  <!-- Transparent background (no rect) -->
+  <g clip-path="url(#circleClip)">
+    <!-- Embeds existing PNG; this is not a vector trace, but keeps transparency and avoids dark square -->
+    <image x="2" y="2" width="60" height="60" href="/images/profile.png" xlink:href="/images/profile.png" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <!-- Subtle outer ring -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="1" />
+</svg>
