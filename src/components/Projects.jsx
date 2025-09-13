@@ -9,8 +9,8 @@ export default function Projects() {
     {
       title: 'City Care Hospital Management',
       desc: 'A comprehensive hospital management system built with modern web technologies, offering functionality for multi-role users (Admin, Doctor, Nurse, Patient) to handle appointments, billing, medical records, and staff operations.',
-      stack: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'JWT authentication', 'Bcrypt', 'Axios', 'React Router', 'Formik & Yup'],
-      image: '/images/City Care Hospital Management.png',
+      stack: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'JWT Authentication', 'Bcrypt', 'Axios', 'React Router', 'Formik & Yup'],
+      image: '/images/City%20Care%20Hospital%20Management.png',
       noTilt: true,
       links: {
         live: '',
@@ -21,7 +21,7 @@ export default function Projects() {
       title: 'BlogSphere Admin',
       desc: 'A role-based blog administration panel that allows admins and managers to manage posts, categories, and users efficiently.',
       stack: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Bootstrap', 'JavaScript', 'CSS'],
-      image: '/images/BlogSphere Admin.png',
+      image: '/images/BlogSphere%20Admin.png',
       noTilt: true,
       links: {
         live: '',

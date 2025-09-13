@@ -147,7 +147,7 @@ export default function Hero() {
               className="h-56 w-56 rounded-2xl object-cover ring-1 ring-white/10 shadow-[0_0_40px_rgba(0,255,247,0.2)] sm:h-64 sm:w-64 md:h-72 md:w-72"
               onError={(e) => {
                 e.currentTarget.onerror = null;
-                e.currentTarget.src = '/vite.svg';
+                e.currentTarget.src = '/favicon.svg';
                 e.currentTarget.classList.add('bg-white/5', 'p-6');
               }}
               variants={imageVariants}
