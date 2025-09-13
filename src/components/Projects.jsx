@@ -100,7 +100,8 @@ export default function Projects() {
   const btnItemVariants = isMotion ? { hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] } } } : undefined
 
   return (
-    <section ref={sectionRef} id="projects" className="mx-auto max-w-7xl px-4 py-24">
+    <section ref={sectionRef} className="mx-auto max-w-7xl px-4 py-24">
+      <div id="projects"></div>
       <h2 className="mb-2 text-2xl font-semibold">Projects</h2>
       <p className="text-white/70">Turning ideas into fast, reliable, and delightful products.</p>
 
